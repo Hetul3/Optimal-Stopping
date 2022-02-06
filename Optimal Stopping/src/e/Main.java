@@ -18,9 +18,9 @@ import java.util.Random;
  */
 public class Main {
 	
-	static int n = 100;	//size of the array
+	static int n = 10000;	//size of the array
 	static double e = 2.71828;
-	static int m = 100;	//range for the values of the array
+	static int m = 1000000000;	//range for the values of the array
 	static int Index = (int) Math.round(n/e);
 
 	public static void main(String[] args) {
