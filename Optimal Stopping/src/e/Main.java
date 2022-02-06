@@ -70,7 +70,7 @@ public class Main {
 		int j = Index;
 		
 		//finding maxValue
-		if(max != m-1) {
+		if(!(max == m-1)) {
 			while(arr[j] < max) {	
 				j++;	
 				maxValue = arr[j];
