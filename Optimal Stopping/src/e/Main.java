@@ -81,8 +81,8 @@ public class Main {
 			}
 		
 			else if(maxValue <= max) {
-				maxValue = arr[n-1];
-				System.out.println("Would Choose: " + maxValue);
+				int maxValue2 = arr[n-1];
+				System.out.println("Would Choose: " + maxValue2);
 			}
 		}
 		
